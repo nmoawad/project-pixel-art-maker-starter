@@ -46,7 +46,7 @@ function drawTheNewCanvas(pixelCanvas) {
       // As requested on the rubric:
       // "Event listeners are properly added to the grid squares
       // (and not to the border or the table itself)."
-      row.onclick = onClick;
+      cell.onclick = onClick;
 
       // Append it to the mth Row
       row.appendChild(cell);
